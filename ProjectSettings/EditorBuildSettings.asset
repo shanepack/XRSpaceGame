@@ -4,7 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Scenes: []
+=======
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VRScene.unity
+    guid: 23f2832381745fa40929b3f09d943d47
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+>>>>>>> Stashed changes
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c6f746bcf76d0624ab63a848d5cf53a5, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1837a17bd88f7ea4989aadc3990a8e27, type: 2}

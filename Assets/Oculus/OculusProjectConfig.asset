@@ -16,8 +16,13 @@ MonoBehaviour:
   allowOptional3DofHeadTracking: 0
   handTrackingSupport: 0
   handTrackingFrequency: 0
+<<<<<<< Updated upstream
   handTrackingVersion: 0
   anchorSupport: 0
+=======
+  handTrackingVersion: 2
+  anchorSupport: 1
+>>>>>>> Stashed changes
   sharedAnchorSupport: 0
   renderModelSupport: 0
   trackedKeyboardSupport: 0
