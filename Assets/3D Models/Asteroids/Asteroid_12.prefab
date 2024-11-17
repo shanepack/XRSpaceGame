@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -6636910985982384618}
   - component: {fileID: 577077177599846964}
   - component: {fileID: -1720059597655516053}
+  - component: {fileID: -1440807528056673316}
   m_Layer: 0
   m_Name: Asteroid_12
   m_TagString: Untagged
@@ -127,6 +128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   centerObject: {fileID: 0}
   destroyDistance: 1
+  rotationSpeed: 100
+  explosionEffect: {fileID: 6478250250852802722, guid: 1498e3531cc7dd14a98960dc9f3e3c30, type: 3}
+  explosionSound: {fileID: 8300000, guid: 35225423f51601e4f82948b6672b4527, type: 3}
 --- !u!64 &-1720059597655516053
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -149,3 +153,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7581747178077434292, guid: 417af5b4cbd04624fac86028426cebe0, type: 3}
+--- !u!114 &-1440807528056673316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223784881005556492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b71f1e3d3269f409413c1762a44214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  explosionEffect: {fileID: 6478250250852802722, guid: 1498e3531cc7dd14a98960dc9f3e3c30, type: 3}
+  explosionSound: {fileID: 8300000, guid: 35225423f51601e4f82948b6672b4527, type: 3}
