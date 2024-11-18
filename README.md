@@ -1,4 +1,4 @@
-# Meteor Rush
+# Meteor Rush Game for PCVR - Originally Built in 24 Hours!
 
 ## Inspiration
 Our inspiration for Meteor Rush came from a Steam arcade game in The Lab, which challenged players to survive an onslaught of incoming projectiles. Additionally, we were inspired by NASA's DART Mission to incorporate asteroids into our game as part of defending Earth. By combining these two influences, we aimed to create an engaging VR experience with arcade-style gameplay.
